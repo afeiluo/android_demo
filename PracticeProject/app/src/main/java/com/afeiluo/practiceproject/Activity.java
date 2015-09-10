@@ -20,6 +20,7 @@ public class Activity extends android.app.Activity {
             Toast.makeText(this, "onRestoreInstanceState name:" + name, Toast.LENGTH_SHORT).show();
         }
         hey wozai ceshi
+                sdfsdafsdf
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_demo);
         startBtn = (Button) findViewById(R.id.start_btn);
