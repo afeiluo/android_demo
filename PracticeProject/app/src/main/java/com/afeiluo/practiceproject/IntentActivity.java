@@ -103,13 +103,13 @@ public class IntentActivity extends Activity {
     }
 
     public void startTimer(String message, int seconds) {
-        Intent intent = new Intent(AlarmClock.ACTION_SET_TIMER)
-                .putExtra(AlarmClock.EXTRA_MESSAGE, message)
-                .putExtra(AlarmClock.EXTRA_LENGTH, seconds)
-                .putExtra(AlarmClock.EXTRA_SKIP_UI, true);
-        if (intent.resolveActivity(getPackageManager()) != null) {
-            startActivity(intent);
-        }
+//        Intent intent = new Intent(AlarmClock.ACTION_SET_TIMER)
+//                .putExtra(AlarmClock.EXTRA_MESSAGE, message)
+//                .putExtra(AlarmClock.EXTRA_LENGTH, seconds)
+//                .putExtra(AlarmClock.EXTRA_SKIP_UI, true);
+//        if (intent.resolveActivity(getPackageManager()) != null) {
+//            startActivity(intent);
+//        }
     }
 
     public void addEvent(String title, String location, Calendar begin, Calendar end) {
@@ -175,11 +175,11 @@ public class IntentActivity extends Activity {
     }
 
     public void selectImageOPEN() {
-        Intent intent = new Intent(Intent.ACTION_OPEN_DOCUMENT);
-        intent.setType("image/*");
-        intent.addCategory(Intent.CATEGORY_OPENABLE);
-        // Only the system receives the ACTION_OPEN_DOCUMENT, so no need to test.
-        startActivityForResult(intent, REQUEST_IMAGE_OPEN);
+//        Intent intent = new Intent(Intent.ACTION_OPEN_DOCUMENT);
+//        intent.setType("image/*");
+//        intent.addCategory(Intent.CATEGORY_OPENABLE);
+//        // Only the system receives the ACTION_OPEN_DOCUMENT, so no need to test.
+//        startActivityForResult(intent, REQUEST_IMAGE_OPEN);
     }
 
     @Override
