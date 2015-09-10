@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/alarm_intent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create an alarm" />
+
+    <Button
+        android:id="@+id/timer_intent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create a timer" />
+
+    <Button
+        android:id="@+id/event_intent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add a calendar event" />
+
+    <Button
+        android:id="@+id/pic_video_intent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capture a picture or video and return it" />
+
+    <Button
+        android:id="@+id/cam_image_intent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start a camera app in still image mode" />
+
+    <Button
+        android:id="@+id/select_contact_intent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select a contact" />
+
+    <Button
+        android:id="@+id/select_phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Phone Number" />
+
+    <Button
+        android:id="@+id/select_file_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get a Photo"></Button>
+    <Button
+        android:id="@+id/open_file_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open a Photo"></Button>
+</LinearLayout>
