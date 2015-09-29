@@ -28,6 +28,14 @@
         <activity
             android:name=".GestureActivity"
             android:theme="@android:style/Theme.Translucent"></activity>
+        <activity
+            android:name=".task.FirstActivity"
+            android:launchMode="singleTask"></activity>
+        <activity android:name=".task.NormalActivity"></activity>
+        <activity android:name=".task.ThirdActivity"></activity>
+        <activity
+            android:name=".task.SingleInstanceActivity"
+            android:launchMode="singleInstance"></activity>
     </application>
 
 </manifest>

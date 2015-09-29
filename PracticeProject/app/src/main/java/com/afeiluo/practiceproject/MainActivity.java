@@ -9,12 +9,15 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
+import com.afeiluo.practiceproject.task.FirstActivity;
+
 public class MainActivity extends Activity {
     private Button intentBtn;
     private Button inputMethodManagerBtn;
     private Button activityBtn;
     private Button fragmentBtn;
     private Button gestureBtn;
+    private Button teskBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +28,7 @@ public class MainActivity extends Activity {
         activityBtn = (Button) findViewById(R.id.activity_btn);
         fragmentBtn = (Button) findViewById(R.id.fragment_btn);
         gestureBtn = (Button) findViewById(R.id.test_gesture);
+        teskBtn = (Button) findViewById(R.id.task_test);
         intentBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -57,6 +61,13 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, com.afeiluo.practiceproject.GestureActivity.class);
+                startActivity(intent);
+            }
+        });
+        teskBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, FirstActivity.class);
                 startActivity(intent);
             }
         });
