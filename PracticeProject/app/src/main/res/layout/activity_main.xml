@@ -43,4 +43,12 @@
         android:layout_below="@id/activity_btn"
         android:layout_centerHorizontal="true"
         android:text="Activity With Fragment" />
+
+    <Button
+        android:id="@+id/test_gesture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fragment_btn"
+        android:layout_centerHorizontal="true"
+        android:text="Test Guesture"></Button>
 </RelativeLayout>

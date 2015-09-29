@@ -18,12 +18,16 @@
             </intent-filter>
         </activity>
         <activity android:name=".IntentActivity"></activity>
+        <!--  android:windowSoftInputMode="adjustResize"-->
         <activity
             android:name=".IMMActivity"
-            android:windowSoftInputMode="adjustResize"></activity>
+            android:windowSoftInputMode="stateHidden|adjustResize"></activity>
         <activity android:name=".Activity"></activity>
         <activity android:name=".AnotherActivity"></activity>
         <activity android:name=".FragementTestActivity"></activity>
+        <activity
+            android:name=".GestureActivity"
+            android:theme="@android:style/Theme.Translucent"></activity>
     </application>
 
 </manifest>
